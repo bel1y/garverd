@@ -1,6 +1,5 @@
 import React from 'react';
 import './glaspage.css';
-import imging from '../img/Ellipse.svg';
 import  {BsCamera, BsActivity, BsThreeDots} from 'react-icons/bs'
 import {AiFillBell} from 'react-icons/ai'
 import iconrac from "../img/icons-rac.svg";
@@ -23,7 +22,7 @@ export default function Glaspage() {
             <div className="ismuser">
                 <div className="ismh1user">
                     <h1>Иван Иванович</h1>
-                <button className="butuser">Простой использователь</button>
+                <button className="butuser">Обычный пользователь</button>
                 </div>
                 <div className="iconsuser">
                     <h1>Мои персонажи:</h1>
