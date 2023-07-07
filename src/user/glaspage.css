@@ -212,8 +212,17 @@ display: flex;
     .otdeluser{
         position: absolute;
         top: 0;
-        margin-left: 54%;
+        margin-left: 57%;
     }
+     .kotaodeluser{
+        text-align: center;
+        display: block;
+        margin-left: 50px;
+    }
+    .publ{
+        margin-left: 50px;
+    }
+    
 }
 
 @media (max-width:600px) {
@@ -232,9 +241,8 @@ display: flex;
         margin-top: 20px;
     }
     .summauser{
-        text-align: center;
         display: block;
-        margin-left: 20px;
+        margin-right: 130px !important;
     }
     .activity{
         margin-left: 13%;
@@ -245,7 +253,7 @@ display: flex;
     .otdeluser{
         position: absolute;
         top: 0;
-        margin-left: 62%;
+        margin-left: 70%;
     }
 }
 
@@ -256,8 +264,74 @@ display: flex;
     .activity{
         margin-left: 20%;
     }
+    .otdeluser{
+        margin-left: 75%;
+    }
+    .publ h1{
+        line-height: 39px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .publ span{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .onmouseenter_user2{
+        left: -255px !important;
+    }
+}
+@media (max-width:380px) {
+    .onmouseenter_user2{
+        left: -240px;
+    }
 }
 
+@media (max-width:350px) {
+    .img_user_uvedom, .img_user_uvedom img{
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 50%;
+    }
+    .bilmiman_logik_komadi p{
+        font-size: 10px !important;line-height: 14px;
+        color: #9DA7BB;
+        font-family: 'Wix Madefor Display', sans-serif;
+    }
+    .bilmiman_logik_komadi h1{
+        font-family: 'Wix Madefor Display', sans-serif;
+        font-size: 12px !important;
+        line-height: 13px;
+    }
+    .bugun_user{
+        padding-top: 10px;
+        font-family: 'Wix Madefor Display', sans-serif;
+        font-size: 10px !important;
+        margin-left: 10px;
+        line-height: 10px;
+    }
+    
+    .chislo_user_gg{
+    padding-top: 10px;
+        font-family: 'Wix Madefor Display', sans-serif;
+        font-size: 10px !important;
+        margin-left: 10px;
+        line-height: 10px;
+    
+    }
+
+    .onmouseenter_user2{
+        display: none;
+        background: #fff;
+       position: absolute;
+       z-index: 200;
+       right: 10px;
+       top: 40px;
+        width: 300px !important;
+        height: 280px !important;
+        box-shadow: 0px 10px 15px #0715652E;
+            left: -220px !important;
+    }
+}
 
 
 .onmouseenter_user{
