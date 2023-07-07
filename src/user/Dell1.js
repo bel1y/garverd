@@ -13,36 +13,55 @@ export default function Dell1() {
         <div className="blockuser">
             <div className="flexuser">
                 <div className="ichidauser">
-                    <img src={ffdf2} alt="" />
-                    <h1></h1>
-                    <p></p>
+                <div className="optinds2">
+                       <div className="img_user_hgt2"><img src={ffdf2} alt="" />
+                       </div> </div>
+                       <div className="odelh1uch"><h1>HTML</h1>
+                    <p>Lorem ipsum dolor sit <br />
+amet, consectetur ar.</p></div>
+                    
                 </div>
                 <div className="ichidauser">
-                    <img src={ffdf1} alt="" />
-                    <h1></h1>
-                    <p></p>
+                <div className="optinds4">
+                       <div className="img_user_hgt4"><img src={ffdf4} alt="" />
+                       </div> </div>
+                    <div className="odelh1uch"><h1>Sass</h1>
+                    <p>Lorem ipsum dolor sit <br />
+amet, consectetur ar.</p></div>
                 </div>
                 <div className="ichidauser">
-                    <img src={ffdf} alt="" />
-                    <h1></h1>
-                    <p></p>
+                    <div className="optinds">
+                       <div className="img_user_hgt"><img src={ffdf} alt="" /></div> </div>
+                       <div className="odelh1uch"><h1>Bootstrap</h1>
+                    <p>Lorem ipsum dolor sit <br />
+amet, consectetur ar.</p></div>
                 </div>
-                <div className="ichidauser">
-                    <img src={ffdf3} alt="" />
-                    <h1></h1>
-                    <p></p>
-                </div>
+                
             </div>
             <div className="flexuser1">
-                <div className="ichidauser">
-                    <img src={ffdf4} alt="" />
-                    <h1></h1>
-                    <p></p>
+            <div className="ichidauser">
+                <div className="optinds1">
+                       <div className="img_user_hgt1"><img src={ffdf1} alt="" />
+                       </div> </div>
+                       <div className="odelh1uch"><h1>GIT</h1>
+                    <p>Lorem ipsum dolor sit <br />
+amet, consectetur ar.</p></div>
                 </div>
                 <div className="ichidauser">
-                    <img src={ffdf5} alt="" />
-                    <h1></h1>
-                    <p></p>
+                <div className="optinds5">
+                       <div className="img_user_hgt5"><img src={ffdf5} alt="" />
+                       </div> </div>
+                       <div className="odelh1uch"><h1>Spring</h1>
+                    <p>Lorem ipsum dolor sit <br />
+amet, consectetur ar.</p></div>
+                </div>
+                <div className="ichidauser">
+                <div className="optinds3">
+                       <div className="img_user_hgt3"><img src={ffdf3} alt="" />
+                       </div> </div>
+                       <div className="odelh1uch"><h1>Oracle</h1>
+                    <p>Lorem ipsum dolor sit <br />
+amet, consectetur ar.</p></div>
                 </div>
             </div>
         </div>

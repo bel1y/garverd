@@ -1,0 +1,165 @@
+.Podpis_user{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.krug_img_user_podpis{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.flex_user_podpis{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+        margin-left: 10%;
+        width: 100%;
+}
+.deshar{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border-bottom: 1px solid #9DA7BB33;
+}
+.user_hhh{
+    width: 100%;
+    margin-left: 20px;
+}
+.user_hhh h1{
+    font-size: 20px;
+    line-height: 24px;
+}
+.user_hhh p{
+    color: #9DA7BB;
+    font-size: 14px;
+}
+.podpis__but{
+    background-color: #c6ccd8;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 150px;
+    height: 30px;
+}
+
+.user_button{
+    width: 100%;
+    display: flex;justify-content: flex-end;
+}
+
+
+@media (max-width:920px) {
+    .deshar{
+        width: 75%  !important;
+    }
+}
+@media (max-width:1400px) {
+    .deshar{
+        width: 60%;
+    }
+}
+
+
+@media (max-width:500px) {
+    .deshar{
+        width: 65% !important;
+    }
+    .flex_user_podpis{
+        margin-top: 20px;
+    }
+    .krug_img_user_podpis, .krug_img_user_podpis img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .user_hhh h1{
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .user_hhh p{
+        color: #9DA7BB;
+        font-size: 10px;
+    }
+    .podpis__but{
+        background-color: #c6ccd8;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        width: 110px;
+        font-size: 10px;
+        height: 30px;
+    }   
+}
+
+
+@media (max-width:400px) {
+    .deshar{
+        width: 65% !important;
+    }
+    .flex_user_podpis{
+        margin-top: 20px;
+    }
+    .krug_img_user_podpis, .krug_img_user_podpis img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+    .user_hhh h1{
+        font-size: 13px;
+        line-height: 10px;
+    }
+    .user_hhh p{
+        color: #9DA7BB;
+        font-size: 8px;
+    }
+    .podpis__but{
+        background-color: #c6ccd8;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        width: 100px;
+        font-size: 10px;
+        height: 30px;
+    }   
+}
+
+@media (max-width:400px) {
+    .deshar{
+        width: 65% !important;
+    }
+    .flex_user_podpis{
+        margin-top: 20px;
+    }
+    .krug_img_user_podpis, .krug_img_user_podpis img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .user_hhh h1{
+        font-size: 13px;
+        line-height: 10px;
+    }
+    .user_hhh p{
+        color: #9DA7BB;
+        font-size: 8px;
+    }
+    .podpis__but{
+        background-color: #c6ccd8;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        width: 90px;
+        font-size: 10px;
+        height: 30px;
+    }   
+}
+
+.podpis_but{
+    background-color: #08d !important;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 150px;
+    height: 30px;
+    display: none;
+}

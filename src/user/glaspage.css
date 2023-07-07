@@ -58,7 +58,7 @@
 }
 .ismh1user h1{
     line-height: 23.87px;
-    font-size: 20px ;
+    font-size: 30px ;
     font-family: 'Wix Madefor Display', sans-serif;
 }
 .ismh1user button{
@@ -135,7 +135,7 @@ color: red;
 }
 .publ h1{
     line-height: 39px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
 }
 .publ span{
@@ -171,10 +171,12 @@ display: flex;
     margin-left: 10%;
 }
 .otdeluser{
+    position: relative;
     display: flex;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 .kolokoluser{
+    cursor: pointer;
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -185,6 +187,7 @@ display: flex;
     font-size: 20px;
 }
 .dotuser{
+    cursor: pointer;
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -199,7 +202,19 @@ display: flex;
 
     
 
-
+@media (max-width:781px) {
+    .activity{
+        margin-left: 13%;
+    }
+    .activity button{
+        width: 165px;
+    }
+    .otdeluser{
+        position: absolute;
+        top: 0;
+        margin-left: 54%;
+    }
+}
 
 @media (max-width:600px) {
     .imageuser{
@@ -230,7 +245,7 @@ display: flex;
     .otdeluser{
         position: absolute;
         top: 0;
-        margin-left: 66%;
+        margin-left: 62%;
     }
 }
 
@@ -239,6 +254,96 @@ display: flex;
         width: 140px;
     }
     .activity{
-        margin-left: 15%;
+        margin-left: 20%;
     }
+}
+
+
+
+.onmouseenter_user{
+    background: #fff;
+   position: absolute;
+   z-index: 200;
+   right: 10px;
+   top: 40px;
+   display: none;
+    width: 220px;
+    height: 170px;
+    box-shadow: 0px 10px 15px #0715652E;
+}
+.profil112_user h1{
+    font-family: 'Wix Madefor Display', sans-serif;
+    
+    font-size: 13px;
+    color: #2E2E2E;
+    margin-left: 10px;
+}
+.profil112_user{
+    margin-top: 5px;
+     margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #9DA7BB;
+}
+.line_user_w100{
+    padding: 0;
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #9DA7BB;
+}
+
+
+
+.onmouseenter_user2{
+    display: none;
+    background: #fff;
+   position: absolute;
+   z-index: 200;
+   right: 10px;
+   top: 40px;
+    width: 330px;
+    height: 300px;
+    box-shadow: 0px 10px 15px #0715652E;
+}
+.img_user_uvedom, .img_user_uvedom img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profil112_user2{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.bilmiman_logik_komadi p{
+    font-size: 12px;line-height: 14px;
+    color: #9DA7BB;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.bilmiman_logik_komadi h1{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 14px;
+    line-height: 13px;
+}
+.bilmiman_logik_komadi{
+    margin-left: 10px;
+}
+.bugun_user{
+    padding-top: 10px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+.chislo_user_gg{
+padding-top: 10px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 10px;
+
 }
