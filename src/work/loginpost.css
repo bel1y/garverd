@@ -45,3 +45,13 @@ button:active{
     margin-top: 20px;
     margin-left: 70%;
 }
+
+th{
+    width: 10%;
+    border: 1px solid grey;
+}
+td{
+    border: 1px solid grey;
+    text-align: center;
+}
+
